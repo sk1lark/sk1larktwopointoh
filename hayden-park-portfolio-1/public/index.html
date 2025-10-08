@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK1LARK — Hayden Park</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Reenie+Beanie&family=Shadows+Into+Light&family=Indie+Flower&family=Patrick+Hand&family=Permanent+Marker&family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Hayden Park (@sk1lark) — Writer, Musician, Developer, Artist">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "/node_modules/three/build/three.module.js",
+                "three/addons/": "/node_modules/three/examples/jsm/"
+            }
+        }
+    </script>
+    <style>
+        /* Critical CSS loaded immediately */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            font-family: 'Caveat', cursive;
+            background: linear-gradient(135deg, #fdf6e3 0%, #f5e6d3 100%);
+            color: #2c2416;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #app {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            perspective: 3000px;
+            perspective-origin: 50% 50%;
+        }
+        
+        /* Hide default list styles */
+        ul {
+            list-style: none;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+    <script type="module" src="dist/index.js"></script>
+</body>
+</html>

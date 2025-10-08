@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Press Start 2P', 'VT323', monospace;
+  background: #1a1520;
+  color: #e0d5f0;
+  overflow-x: hidden;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Pixel-style cursor */
+* {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><rect x="0" y="0" width="16" height="16" fill="white" stroke="black" stroke-width="2"/></svg>') 8 8, auto;
+}
+
+/* Selection color */
+::selection {
+  background-color: #ff6b9d;
+  color: #fff;
+  text-shadow: none;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1520;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff6b9d;
+  border: 2px solid #1a1520;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e65587;
+}

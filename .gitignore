@@ -1,0 +1,60 @@
+# Node/NPM
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Nuxt/Vite build output
+.nuxt/
+.output/
+.nitro/
+.cache/
+.dist/
+.temp/
+.temp*/
+.vite/
+**/.nuxt/
+**/.output/
+**/.nitro/
+**/.vite/
+
+# Coverage / test
+coverage/
+.nyc_output/
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Logs
+logs/
+*.log
+
+# Local tools/artifacts
+.claude/
+# Ignore Windows reserved name entry if present
+nul
+
+# Nuxt app specific (if nested)
+nuxt-app/.nuxt/
+nuxt-app/.output/
+nuxt-app/.nitro/
+nuxt-app/node_modules/
+
+# Dist/public caches
+**/.vercel/
+**/.turbo/
+**/.next/

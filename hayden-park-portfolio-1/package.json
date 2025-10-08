@@ -1,0 +1,26 @@
+{
+  "name": "hayden-park-portfolio",
+  "version": "1.0.0",
+  "description": "A personal website showcasing the biography and works of Hayden Park.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "lite-server",
+    "watch": "tsc -w"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "hayden park"
+  ],
+  "author": "Hayden Park",
+  "license": "MIT",
+  "dependencies": {
+    "lite-server": "^2.6.1",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0",
+    "typescript": "^4.5.4"
+  }
+}

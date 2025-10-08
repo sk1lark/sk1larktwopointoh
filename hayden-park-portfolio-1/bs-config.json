@@ -1,0 +1,18 @@
+{
+  "server": {
+    "baseDir": "./public",
+    "routes": {
+      "/src": "./src",
+      "/dist": "./public/dist",
+      "/node_modules": "./node_modules"
+    }
+  },
+  "files": [
+    "public/**/*",
+    "src/**/*",
+    "dist/**/*"
+  ],
+  "port": 3000,
+  "open": true,
+  "notify": false
+}
