@@ -2164,7 +2164,7 @@ onMounted(() => {
       toroFill.position.set(toro.position.x + 0.1, 1.35, toro.position.z - 0.18);
       toroFill.castShadow = false; scene.add(toroFill);
     } catch (e) {
-      console.warn('Toro load failed. Ensure the toro folder is placed at nuxt-app/public/toro so /toro/scene.gltf is accessible.', e);
+      console.warn('Toro load failed. Ensure the toro folder is placed at public/toro so /toro/scene.gltf is accessible.', e);
     }
 
     // Ensure layers are correct: everything on world layer (no overlay needed while card hidden)

@@ -58,3 +58,6 @@ nuxt-app/node_modules/
 **/.vercel/
 **/.turbo/
 **/.next/
+
+# Ignore nested backup git directories
+**/.git.bak/

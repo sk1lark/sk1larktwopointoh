@@ -148,7 +148,7 @@ scene.environment = pmremGenerator.fromScene(
 
 ## Example Scene Structure
 ```
-nuxt-app/
+project/
   public/
     models/
       character.glb
